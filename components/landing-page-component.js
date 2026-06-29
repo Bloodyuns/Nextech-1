@@ -2,17 +2,24 @@ export default {
   name: 'landing-page-component',
   template: /* html */ `
     <div class="container py-4">
-      <h1 class="mb-3">Welcome!</h1>
-      <p class="lead">This is a web app template in need of customization and improved interaction design.</p>
-      <router-link to="/items" class="btn btn-primary mb-4"><i class="bi bi-list-check me-1"></i>View the Example Collection</router-link>
+      <h1 class="mb-3">Endangered Animal Ensemble</h1>
+      <p class="lead">Learn about endangered animals around the world and discover what can be done to help protect them.</p>
+      <router-link to="/items" class="btn btn-primary mb-4"><i class="bi bi-list-check me-1"></i>Explore Animals</router-link>
 
-      <h2 class="h4 mt-3">Template App Description</h2>
+      <h2 class="h4 mt-5">About This Collection</h2>
       <p>
-        This is a simple Vue.js starter template that demonstrates how to build a small web app with a landing page, a collection page, and an item detail page. It uses Vue's Composition API for state management and Vue Router for navigation. The app loads a dataset from a CSV file and allows users to bookmark items for easy access later.
+        Our world is facing a biodiversity crisis. Many animal species are on the brink of extinction due to habitat loss, climate change, illegal hunting, and human expansion. This app highlights some of the most critically endangered animals on Earth.
       </p>
       <p>
-        Your goal is to customize the app by adapting it to a different dataset, improving the user interface and interaction design, and adding new features that enhance the user experience. You can use any public dataset that interests you, such as movies, books, recipes, or anything else you find compelling. The app is intentionally simple to give you a lot of freedom in how you choose to enhance it.
+        For each animal, you'll find information about where they live, how many individuals remain in the wild, and the key threats driving their decline. Understanding these issues is the first step toward making a difference. Whether through supporting conservation organizations, making sustainable choices, or spreading awareness, everyone can help.
       </p>
+
+      <h2 class="h4 mt-5">How to Use This App</h2>
+      <ul>
+        <li>Click <strong>Explore Animals</strong> above to see the collection</li>
+        <li>Click any animal card to learn more details</li>
+        <li>Read the location, population status, and threats for each species</li>
+      </ul>
     </div>
   `,
 };

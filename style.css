@@ -1,3 +1,45 @@
+/* Override Bootstrap defaults for darker theme */
+body {
+  background-color: #1a1a1a;
+  color: #e8e8e8;
+}
+
+.card {
+  background-color: #2a2a2a;
+  border-color: #444 !important;
+  color: #e8e8e8;
+}
+
+.card-text {
+  color: #b8b8b8 !important;
+}
+
+.text-muted {
+  color: #999 !important;
+}
+
+.alert {
+  background-color: #3a3a3a;
+  border-color: #555;
+  color: #e8e8e8;
+}
+
+.btn-outline-secondary {
+  color: #0c7dc3;
+  border-color: #0c7dc3;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #0c7dc3;
+  border-color: #0c7dc3;
+  color: white;
+}
+
+.badge {
+  background-color: #764ba2 !important;
+}
+
+/* Image styling */
 .collection-card-image {
   height: 180px;
 }

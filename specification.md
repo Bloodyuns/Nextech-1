@@ -1,10 +1,10 @@
-# Specification: [Your App Idea Name]
+# Specification: Endagered Animal Ensemble
 
-App description: [Write a one or two sentences describing what your app does and who it’s for.]
+App description: My app shows endagered animals that arent known as well and it would be a collection of multiple animals, where they are/live, how many of their species are still alive, and what caused their decrease in nuumbers.
 
 ## Style and Theme
 
-[Describe the look and feel of your app.] 
+My apps mood should be sadder and darker to emphasize what happened to the animals and not sugarcoat it.
 
 Overall mood:
 Examples: fun and playful, calm and professional, bold and energetic, etc.
@@ -15,7 +15,7 @@ Use the *style-guide.html* for details on styling -- fonts, colors, and layout.
 
 ### Story 1 (most important)
 
-[Write 1-2 sentences. Who is using the app, what do they want to do, and what do they see when it works? Write it like you are describing it to a friend.]
+The people who are using the app are people who want to be informed on animals that are endangered or going to be extinct. Also for people who can symphatize with animals or maybe they want to help the animals after getting the knowledge on which ones are endangered.
 
 ---
 

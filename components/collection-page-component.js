@@ -10,14 +10,14 @@ export default {
   template: /* html */ `
     <section class="container py-4">
       <div class="d-flex justify-content-between align-items-center mb-3">
-        <h1 class="h3 mb-0">Collection</h1>
-        <span class="badge text-bg-light border">{{ itemsStore.items.length }} shown</span>
+        <h1 class="h3 mb-0">Endangered Animals</h1>
+        <span class="badge text-bg-warning text-dark">{{ itemsStore.items.length }} species</span>
       </div>
 
-      <p class="text-muted">Browse a simple dataset loaded from a CSV file.</p>
+      <p class="text-muted">Each card below represents a critically endangered animal species. Click to learn more about the threats they face.</p>
 
       <div v-if="itemsStore.isLoading" class="alert alert-secondary" role="status">
-        Loading items...
+        Loading animal data...
       </div>
 
       <div v-else-if="itemsStore.error" class="alert alert-danger" role="alert">
@@ -25,7 +25,7 @@ export default {
       </div>
 
       <div v-else-if="itemsStore.items.length === 0" class="alert alert-warning" role="alert">
-        No items found in the dataset.
+        No animals found in the dataset.
       </div>
 
       <div v-else class="row g-3">
@@ -38,14 +38,14 @@ export default {
               class="card-img-top collection-card-image object-fit-cover" />
             <div
               v-else
-              class="collection-card-image d-flex align-items-center justify-content-center bg-light text-muted">
+              class="collection-card-image d-flex align-items-center justify-content-center bg-secondary text-muted">
               No image available
             </div>
 
             <div class="card-body d-flex flex-column">
               <div class="d-flex justify-content-between align-items-start mb-2">
                 <h2 class="h5 card-title mb-0">{{ item.name }}</h2>
-                <span class="badge text-bg-primary ms-2">{{ item.category || 'General' }}</span>
+                <span class="badge text-bg-primary ms-2">{{ item.category || 'Species' }}</span>
               </div>
 
               <p class="card-text text-muted flex-grow-1 collection-description">
